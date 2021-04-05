@@ -50,7 +50,7 @@ function draw() {
   star.x= starBody.position.x 
   star.y= starBody.position.y 
   if( starBody.position.y>330) {
-	Body.setStatic(starBody,true)
+	Matter.Body.setStatic(starBody,true)
   }
 
   console.log(star.y);
